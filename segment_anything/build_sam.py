@@ -85,7 +85,7 @@ def _build_sam(
             mask_in_chans=16,
         ),
         mask_decoder=MaskDecoder(
-            num_multimask_outputs=3,
+            num_multimask_outputs=4,
             transformer=TwoWayTransformer(
                 depth=2,
                 embedding_dim=prompt_embed_dim,
