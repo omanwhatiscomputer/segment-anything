@@ -90,7 +90,7 @@ def _build_sam(
                 depth=2,
                 embedding_dim=prompt_embed_dim,
                 mlp_dim=2048,
-                num_heads=4,
+                num_heads=8,
             ),
             transformer_dim=prompt_embed_dim,
             iou_head_depth=3,
